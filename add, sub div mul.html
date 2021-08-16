@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Practice</title>
+</head>
+
+<body>
+    <input type="text" id="text1" placeholder="Enter a number" />
+    <input type="text" id="text2" placeholder="Enter a number" /><br /><br />
+    <button onclick="addition()">addition</button>
+    <button onclick="subtration()">subtration</button>
+    <button onclick="multiplication()">multiplication</button>
+    <button onclick="division()">division</button><br /><br /><br />
+</body>
+<script>
+    function addition() {
+        var x = parseInt(document.getElementById("text1").value);
+        var y = parseInt(document.getElementById("text2").value);
+        var sum = 0;
+        sum = x + y;
+        alert(sum);
+    }
+
+    function subtration() {
+        var x = parseInt(document.getElementById("text1").value);
+        var y = parseInt(document.getElementById("text2").value);
+        var sum = 0;
+        sum = x - y;
+        alert(sum);
+    }
+
+    function multiplication() {
+        var x = parseInt(document.getElementById("text1").value);
+        var y = parseInt(document.getElementById("text2").value);
+        var sum = 0;
+        sum = x * y;
+        alert(sum);
+    }
+
+    function division() {
+        var x = parseInt(document.getElementById("text1").value);
+        var y = parseInt(document.getElementById("text2").value);
+        var sum = 0;
+        sum = x / y;
+        alert(sum);
+    }
+</script>
+
+</html>
